@@ -1,0 +1,29 @@
+body{
+	width:100%;
+}
+.main{
+	display:flex;
+	margin-top:50%;
+	justify-content: center;
+    align-content: center;
+}
+form.space{
+	justify-content:center;
+}
+form.space input[type="text"]{
+	border: none;
+    border-radius: 30px;
+    color: var(--search-box-text);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+	padding-inline-end: 30px;
+    padding-inline-start: 30px;
+    position: relative;
+	box-shadow:0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+form.space input[type="submit"]{
+	display:block;
+	margin:auto;
+}
