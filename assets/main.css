@@ -7,7 +7,7 @@ body{
 	justify-content: center;
     align-content: center;
 }
-form.space input{	
+form input{	
 	border: none;
 	height: 40px;	
     font-family: inherit;
@@ -18,19 +18,32 @@ form.space input{
     position: relative;
 	box-shadow:0 1px 6px 0 rgba(32, 33, 36, .28);
 }
-form.space input[type="text"]{
+form input[type="text"]{
 	border-top-left-radius: 30px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 30px;
 }
-form.space input[type="submit"]{	
+form input[type="submit"], form input[type="button"]{	
 	border-top-left-radius: 0;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 0;
 }
-form.space input[type="submit"]:hover{
+form input[type="submit"]:hover, form input[type="button"]:hover{
 	box-shadow:0 2px 10px 0 rgba(32, 33, 55, .38);
 	background:rgb(240 248 255)
 }
+div.linkOutput input{
+	
+}
+
+*[display="none"]{
+	display:none;
+}
+*.clicked{
+/*	background:hwb(223deg 25% 0%);*/
+/*  Aplica estilo diferente al botton al ser clickado  */
+}
+
+
