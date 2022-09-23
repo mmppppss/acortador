@@ -1,0 +1,10 @@
+Proyecto de acortador de links con php
+autor: mmppppss
+
+//TO DO 
+	> Generar links unicos (que no se repitan)
+	> Guardar en la base de datos
+	> Funcion de leer la base de datos y redirecionar
+	> API
+
+actualmente solo esta el frontend
