@@ -14,9 +14,17 @@
 		</form>
 	</div>
 	<div>
-		<textarea id="" class="output" name="" cols="30" rows="2">
-hola
-		</textarea>
+		<input id="out" class="output" name="" value=''><input type='button' onclick='copy()' value='copy'>
 	</div>
+	<script>
+		const output=document.querySelector('#out');
+		output.value='sho.rt/jfeheh';
+		const copy=()=>{
+					navigator.clipboard.writeText(output.value);
+					/*output.focus();
+					document.execCommand('selectAll');
+					document.execCommand('copy');*/
+				}
+	</script>
 </body>
 </html>
