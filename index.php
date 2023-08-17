@@ -7,6 +7,13 @@
 	<title>short</title>
 </head>
 <body>
+  <div class="menu">
+    <ul>
+      <li>Login</li>
+      <li>Mis links</li>
+      <li>About</li>
+    </ul>
+  </div>
 	<div class="main">
 		<form id="input" class="linkInput" action="index.php" method='GET'>
 			<input type="text" name="link" placeholder="https://example.com">
